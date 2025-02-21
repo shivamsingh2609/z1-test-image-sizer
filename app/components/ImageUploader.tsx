@@ -143,7 +143,7 @@ export default function ImageUploader() {
               onClick={handleTwitterLogin}
               className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all"
             >
-              Connect with Twitter
+              Twitter
             </button>
           ) : (
             <button
@@ -181,10 +181,10 @@ export default function ImageUploader() {
                 {isDragActive ? 'Drop your image here' : 'Upload your image'}
               </p>
               <p className="text-sm text-gray-500">
-                Drag and drop your image here, or click to select
+                Drag the image or click 
               </p>
               <p className="text-xs text-gray-400">
-                Supports: PNG, JPG, JPEG, GIF
+                fromat : PNG, JPG, JPEG, GIF
               </p>
             </div>
           </div>

@@ -9,7 +9,7 @@ export default function Home() {
             Image Resizer
           </h1>
           <p className="text-xl text-gray-100 max-w-2xl mx-auto">
-            Upload your image and get it automatically resized to multiple dimensions for your advertising needs.
+            Upload the image.
           </p>
         </div>
         <div className="bg-white rounded-lg shadow-2xl p-8">
